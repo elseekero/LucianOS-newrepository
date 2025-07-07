@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>LucianOS - Cómo fue creado</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #d6f0ff, #ffffff);
+      color: #1a1a1a;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #0096d6;
+      color: white;
+      padding: 1.5em;
+      text-align: center;
+    }
+    h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    main {
+      max-width: 800px;
+      margin: 2em auto;
+      padding: 0 1em;
+    }
+    section {
+      margin-bottom: 2.5em;
+    }
+    h2 {
+      color: #005999;
+    }
+    footer {
+      text-align: center;
+      padding: 1em;
+      background-color: #f0f0f0;
+      font-size: 0.9em;
+    }
+    img {
+      width: 100%;
+      border-radius: 10px;
+      margin-top: 1em;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+    a {
+      color: #0078d4;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>LucianOS</h1>
+    <p>Una experiencia visual personalizada sobre Windows 11 Pro</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>¿Qué es LucianOS?</h2>
+      <p>
+        LucianOS es un sistema modificado y estilizado basado en <strong>Windows 11 Pro</strong>, con una estética divertida y retro.
+        Inspirado en el caos, los memes, y la nostalgia visual, busca ofrecer algo distinto a cualquier sistema tradicional.
+      </p>
+    </section>
+
+    <section>
+      <h2>¿Cómo fue creado?</h2>
+      <ul>
+        <li>🖌️ Se utilizó <strong>WindowBlinds</strong> para aplicar temas visuales personalizados.</li>
+        <li>🪟 Se integró <strong>RetroBar</strong> para una barra de tareas clásica estilo XP/Vista.</li>
+        <li>🔧 No se usaron herramientas extra para mantener el sistema simple y único.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>¿Cómo se ve LucianOS?</h2>
+      <p>Una imagen vale más que mil palabras. Así luce el escritorio de LucianOS en acción:</p>
+      <img src="luciano.png" alt="Captura de pantalla de LucianOS con memes y estilo visual personalizado" />
+    </section>
+
+    <section>
+      <h2>Créditos</h2>
+      <p>
+        Creado por <strong>Luciano Marco Arecco</strong> como un proyecto de personalización experimental.<br/>
+        Repositorio: <a href="https://github.com/lucianoarecco/LucianOS" target="_blank">lucianoarecco/LucianOS</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    Hecho con 💻 y memes por Luciano Marco Arecco · 2025
+  </footer>
+
+</body>
+</html>
